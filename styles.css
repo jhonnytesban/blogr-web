@@ -1,0 +1,49 @@
+:root{
+  /* Colors */
+  --light-red: hsl(356, 100%, 66%);
+  --Vlight-red: hsl(355, 100%, 74%);
+  --Vdark-red: hsl(208, 49%, 24%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+  /* menu */
+  --menu-hamburger: url(./images/icon-hamburger.svg);
+
+  /* Fonts */
+  --font-overpass: 'Overpass', sans-serif;
+}
+.header__container{
+  display: flex;
+  justify-content: center;
+}
+.header{
+  padding: 40px 20px;
+  background-color: var(--light-red);
+  background-repeat: no-repeat;
+  /* position: relative; */
+}
+.title::before{
+  content: var(--menu-hamburger);
+  position: absolute;
+  left: 80%;
+}
+.logo{
+  width: 25%;
+}
+.menu-active{
+  width: 85%;
+  position: absolute;
+  background-color: var(--neutral-white);
+  bottom: 20%;
+  transition: all .5s;
+  border-radius: 10px;
+}
+.menu-deactive{
+  width: 85%;
+  position: absolute;
+  bottom: 100%;
+  transition: all .5s;
+}
+.menu__list, ul{
+  list-style: none;
+  font-family: var(--font-overpass);
+}
