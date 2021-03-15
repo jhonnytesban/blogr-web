@@ -100,14 +100,22 @@
   text-decoration: none;
   font-family: var(--font-overpass);
   margin: 20px auto;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 .btn__link{
   display: block;
   background: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-  width: 100px;
+  width: 150px;
   height: 50px;
   text-align: center;
   text-decoration: none;
   font-family: var(--font-overpass);
   margin: 20px auto;
+  padding: auto;
+  padding: 5%;
+  box-sizing: border-box;
+  border-radius: 40px;
+  font-weight: 600;
+  color: #fff;
 }
