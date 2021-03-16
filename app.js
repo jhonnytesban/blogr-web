@@ -27,8 +27,6 @@ const clic = (number) => {
   list[number].addEventListener('click', () => {
     submenu[number].classList.toggle('submenu__list-active')
     optionChange(number)
-    P= false
-    console.log(p)
   })
 }
 
