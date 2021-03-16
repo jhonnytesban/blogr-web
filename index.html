@@ -2,23 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="styles.css">
-
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;0,700;1,400&display=swap" rel="stylesheet">
-
-
   <title>Frontend Mentor | [Blogr]</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header class="header">
@@ -77,75 +67,59 @@
           videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
           change the looks of a blog.</p>
       </article>
-      <article class="article">
+      <article class="article article2">
         <h3 class="article__title">Robust content management</h3>
         <p class="article__text">Flexible content management enables users to easily move through posts. Increase the usability of your blog 
           by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
       </article>
     </section>
+    <section class="section">
+      <article class="article">
+        <img src="./images/illustration-phones.svg" alt="Teléfonos mostrando la app Blogr" class="section__img">
+        <!-- <img src="./images/bg-pattern-circles.svg" alt="" class="new-img"> -->
+        <h3 class="article__subtitle">State of the Art Infrastructure</h2>
+        <p class="article__text1">With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+          This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+      </article>
+    </section>
+    <section class="section">
+      <img src="./images/illustration-laptop-mobile.svg" alt="" class="article__img">
+      <article class="article">
+        <h3 class="article__title">Free, open, simple</h3>
+        <p class="article__text">Blogr is a free and open source application backed by a large community of helpful developers. It supports 
+          features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
+          and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+      </article>
+      <article class="article">
+        <h3 class="article__title">Powerful tooling</h3>
+        <p class="article__text">Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
+          capable of producing even the most complicated sites.</p>
+      </article>
+    </section>
   </main>
-
-  
-
-  
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+  <footer class="footer">
+    <h2 class="footer__title"><img src="./images/logo.svg" class="logo" alt="Blogr Logo de la página"></h1>
+      <div class="footer__container">
+        <h3 class="footer__subtitle">Product</h3>
+        <p class="footer__text">Overview</p>
+        <p class="footer__text">Pricing</p>
+        <p class="footer__text">Marketplace</p>
+        <p class="footer__text">Features</p>
+        <p class="footer__text">Integrations</p>
+      </div>
+      <div class="footer__container">
+        <h3 class="footer__subtitle">Company</h3>
+        <p class="footer__text">Team</p>
+        <p class="footer__text">Blog</p>
+        <p class="footer__text">Careers</p>
+      </div>
+      <div class="footer__container">
+        <h3 class="footer__subtitle">Connect</h3>
+        <p class="footer__text">Contact</p>
+        <p class="footer__text">Newsletter</p>
+        <p class="footer__text">LinkedIn</p>
+      </div>
+  </footer>
   <script src="app.js"></script>
 </body>
 </html>
