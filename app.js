@@ -59,3 +59,8 @@ menu.addEventListener('click', () => {
   clic(1)
   clic(2)
 })
+// if (screen.width > 1024) {
+//   icon.removeAttribute('id')
+//   nav.removeAttribute('id')
+//   console.log(icon.getAttribute('id'))
+// }
