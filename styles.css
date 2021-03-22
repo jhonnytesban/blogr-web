@@ -444,4 +444,29 @@
     background-position: -300px 75%;
     background-size: 100%;
   }
+  .imgD2{
+    content: url(./images/illustration-laptop-desktop.svg);
+    width: 50%;
+    height: 50%;
+    position: relative;
+    right: 200px;
+  }
+  .sectionD{
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+  }
+  .article__title{
+    text-align: left;
+  }
+  .section{
+    margin-bottom: 80px;
+  }
+  .footer{
+    display: flex;
+    justify-content: space-around;
+  }
+  .section__title{
+    font-size: 2rem;
+  }
 }
